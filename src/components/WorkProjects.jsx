@@ -86,7 +86,17 @@ export default function WorkProjects(props) {
                     </Card>
                 </Card.Group>
                 </div>
-            <div className="home-input-name-container">
+            <div className="buttons-container">
+                <Button 
+                    inverted
+                    circular 
+                    className="" 
+                    onClick={ () => props.history.goBack()}
+                    icon="arrow alternate circle left"
+                    labelPosition="left"
+                    color="white"
+                    content="Regresar"
+                    />
                 <Button 
                     circular 
                     className="greetings-button" 

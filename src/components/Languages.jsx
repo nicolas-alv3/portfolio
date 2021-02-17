@@ -52,7 +52,7 @@ export default function Languages(props) {
                                 Luego de un año de capacitación intensiva, aprobé el examen con grado C.
                                 Este grado corresponde al un nivel intermedio-avanzado representado como B2 en la escala de Cambridge
                             <Card.Meta>
-                            <Progress className="education-progress" percent={73.3} progress color="yellow"/>
+                            <Progress className="education-progress" percent={100} progress color="green"/>
                             </Card.Meta>
                             </Card.Description>
                         </Card.Content>
@@ -70,7 +70,17 @@ export default function Languages(props) {
                     </Card>
                 </Card.Group>
                 </div>
-            <div className="home-input-name-container">
+            <div className="buttons-container">
+                <Button 
+                    inverted
+                    circular 
+                    className="" 
+                    onClick={ () => props.history.goBack()}
+                    icon="arrow alternate circle left"
+                    labelPosition="left"
+                    color="white"
+                    content="Regresar"
+                    />
                 <Button 
                     circular 
                     className="greetings-button" 

@@ -20,15 +20,25 @@ function Greetings(props) {
                 <img alt="" className="home-image-container" />
                     <h1 className="home-welcome greetings-welcome">{greetings} {props.name}</h1>
                     <h2 className="home-text greetings-text">Te voy a contar un poco sobre mí...</h2>
-                    <div className="home-input-name-container">
+                    <div className="buttons-container">
                         <Button 
-                        circular 
-                        className="greetings-button" 
-                        onClick={ () => props.history.push("/education")}
-                        icon="arrow alternate circle right"
-                        labelPosition="right"
-                        color="purple"
-                        content="Continuar"
+                            inverted
+                            circular 
+                            className="" 
+                            onClick={ () => props.history.goBack()}
+                            icon="arrow alternate circle left"
+                            labelPosition="left"
+                            color="white"
+                            content="Regresar"
+                        />
+                        <Button 
+                            circular 
+                            className="greetings-button" 
+                            onClick={ () => props.history.push("/education")}
+                            icon="arrow alternate circle right"
+                            labelPosition="right"
+                            color="purple"
+                            content="Continuar"
                         />
                     </div>
             </div>

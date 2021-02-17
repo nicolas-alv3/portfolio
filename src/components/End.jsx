@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
+import { Icon, Button } from 'semantic-ui-react';
 import "../style/Home.css";
 
 export default function End(props) {
@@ -14,6 +14,18 @@ export default function End(props) {
                         <div><Icon name="phone" size="big" color="blue" /> 1168896776</div>
                         <div><Icon name="linkedin" size="big" color="blue" /> Nicolas Alvarez</div>
                     </div>
+                <div className="buttons-container" style={{marginTop :"3vw"}}>
+                    <Button 
+                        inverted
+                        circular 
+                        className="" 
+                        onClick={ () => props.history.push("/")}
+                        icon="arrow alternate circle left"
+                        labelPosition="left"
+                        color="white"
+                        content="Inicio"
+                    />
+                </div>
             </div>
         </div>
     );

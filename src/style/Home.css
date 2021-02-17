@@ -20,6 +20,10 @@
 
 }
 
+.buttons-container{
+    width: max-content;
+    margin: auto;
+}
 .home-welcome{
     display: inline-block;
     font-size: 8.5vw;
