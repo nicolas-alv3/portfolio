@@ -42,7 +42,7 @@ export default function WorkProjects(props) {
                                 El proyecto se centra en brindarle al cliente una forma comoda y eficiente de vender, facturar y controlar su stock.
                                  Fue entregada la version 1.0 y actualmente continuo trabajando en el para extender las secciones de compras y balances.
                             <Card.Meta>
-                            <Progress className="education-progress" percent={65} progress color="yellow"/>
+                            <Progress className="education-progress" percent={65} progress color="olive"/>
                             </Card.Meta>
                             </Card.Description>
                         </Card.Content>

@@ -26,7 +26,7 @@ const ViandasYa = {
 export default function PersonalProjects(props) {
     return (
         <div className="education-background-languages">
-                <h1 className="education-title">Proyectos personales <Icon size="small" name="code" color="olive"/></h1>
+                <h1 className="education-title">Proyectos personales <Icon size="small" name="code" color="orange"/></h1>
                 <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
                 <p className="education-text">Con el pasar del tiempo aprendí a identificar problemas de la vida cotidiana y solucionarlos con informática</p>
                 <div className="education-card-group-container">
@@ -43,7 +43,7 @@ export default function PersonalProjects(props) {
                             <Card.Description>
                                 El proyecto se centra en facilitar y mejorar la forma de realizar pedidos a mayoristas de negocios.
                             <Card.Meta>
-                            <Progress className="education-progress" percent={65} progress color="yellow"/>
+                            <Progress className="education-progress" percent={65} progress color="olive"/>
                             </Card.Meta>
                             </Card.Description>
                         </Card.Content>

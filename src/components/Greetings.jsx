@@ -6,7 +6,7 @@ import "../style/Greetings.css";
 function Greetings(props) {
     const getGreetings = (hour) => {
         if(hour >= 13){
-            if(hour >=19)
+            if(hour >19)
                 return "Buenas noches"
             return "Buenas tardes"
         }

@@ -68,3 +68,35 @@
         width: 22.5vw;
     }
 }
+
+.contact-container {
+    font-size:1.5em;
+     display:flex;
+     justify-content: space-around
+}
+
+@media (max-width:800px) {
+    .education-background-languages {
+        height: 130vh;
+    }
+
+    .contact-container{
+        display: inline-block;
+    }
+
+    .education-background {
+        height: 140vh;
+    }
+    .education-title{
+        font-size: 2em;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .education-text {
+        font-size: 1em;
+        width: 80%;
+    }
+}
