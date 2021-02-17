@@ -39,7 +39,8 @@ export default function WorkProjects(props) {
                             <Card.Header>DistribuidoraJD</Card.Header>
                             <Card.Meta>Distribuidora de Golosinas</Card.Meta>
                             <Card.Description>
-                                El proyecto se centra en brindarle al cliente una forma comoda y eficiente de vender, facturar y controlar su stock. Fue entregada la version 1.0 y actualmente continuo trabajando en el para extender compras y balances.
+                                El proyecto se centra en brindarle al cliente una forma comoda y eficiente de vender, facturar y controlar su stock.
+                                 Fue entregada la version 1.0 y actualmente continuo trabajando en el para extender las secciones de compras y balances.
                             <Card.Meta>
                             <Progress className="education-progress" percent={65} progress color="yellow"/>
                             </Card.Meta>
@@ -67,7 +68,9 @@ export default function WorkProjects(props) {
                             <Card.Header>Los Hermanos</Card.Header>
                             <Card.Meta>Corralón y Ferretería Industrial</Card.Meta>
                             <Card.Description>
-                                Este trabajo solucionó el problema de control de stock que afectaba al cliente. Además se realizó un sistema de actualización de precios por porcentajes y categorías que redujo el tiempo de trabajo por inflación.
+                                Este trabajo solucionó el problema de control de stock que afectaba al cliente.
+                                 Además se realizó un sistema de actualización de precios por porcentajes
+                                  y categorías que redujo el tiempo del modificación de precios por ajuste de inflación.
                             <Card.Meta>
                             <Progress className="education-progress" percent={90} progress color="green"/>
                             </Card.Meta>

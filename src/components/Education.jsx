@@ -9,7 +9,7 @@ function Education(props) {
             <div className="education-container">
                 <h1 className="education-title">Formación académica<Icon size="small" name="book" color="olive"/></h1>
                 <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
-                <p className="education-text">Durante los últimos 5 años la UNQ fue mi segunda casa, desarrollé capacidad para razonar problemas complejos y resolverlos en equipo en las siguientes carreras: </p>
+                <p className="education-text">Durante los últimos 5 años la UNQ fue mi segunda casa, desarrollé la capacidad para razonar problemas complejos y resolverlos en equipo cursando las siguientes carreras: </p>
                 <div className="education-card-group-container">
                 <Card.Group >
                     <Card>

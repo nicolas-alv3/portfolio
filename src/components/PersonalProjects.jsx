@@ -17,7 +17,7 @@ const Mirtapp = {
 const ViandasYa = {
     name:"Viandas Ya",
         meta:"Pedidos de viandas empresariales",
-        description:"Proyecto que desarrolle junto a un compañero para la materias Desarrollo de Aplicaciones UNQ, aquí apliqué e integré muchos de los conocimientos que me proporcionó la tecnicatura. Se trata de una aplicación con negocios, menues y usuarios donde se puede ordenar comida de un día pra otro.",
+        description:"Proyecto que desarrolle junto a un compañero para la materias Desarrollo de Aplicaciones UNQ, aquí apliqué e integré muchos de los conocimientos que me proporcionó la tecnicatura. Se trata de una aplicación con negocios, menues y usuarios donde se puede ordenar comida de un día para otro.",
         stack:["Java","Spring","React","API Rest","PostgreSQL","Hibernate","GoogleAuth","Heroku"],
         githublink:"https://github.com/nicolas-alv3/grupo-c1e-022020",
         srcImg : viandasYaImg
