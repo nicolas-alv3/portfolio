@@ -43,6 +43,13 @@
     width: 25vw;
     margin: auto;
 }
+.end {
+    font-size: 7vw;
+}
+
+.end-text {
+    font-size: 3vw;
+}
 
 @media (max-width:900px) { 
     .home-input-name {

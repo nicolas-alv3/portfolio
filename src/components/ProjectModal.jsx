@@ -1,8 +1,7 @@
 import React from 'react'
-import { Button, Embed, Header, Icon, Image, Label, Modal } from 'semantic-ui-react'
+import { Button, Segment, Header, Icon, Image, Label, Modal } from 'semantic-ui-react'
 
 const colors = [
-    'red',
     'yellow',
     'purple',
     'brown',
@@ -15,6 +14,7 @@ const colors = [
     'grey',
     'orange',
     'black',
+    'red',
   ]
   
 
@@ -42,7 +42,14 @@ function ProjectModal(props) {
         </div>
       </Modal.Header>
       <Modal.Content image>
-                <iframe allowfullscreen="true" width="300" height="200" src={`https://www.youtube.com/embed/${props.ytId}`} frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      {props.ytId ? <Segment size="small">
+            <Label as='a' color='red' ribbon>
+            Serán solo 2'
+            </Label>
+            <iframe allowfullscreen="true" width="330" height="200" src={`https://www.youtube.com/embed/${props.ytId}`} frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </Segment> : 
+        <Image size='medium' src={props.srcImg} wrapped />
+        }
         <Modal.Description className="modal-description">
           <Header>Descripción</Header>
           <div style={{width:"35vw"}}>

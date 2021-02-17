@@ -1,12 +1,14 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 import { Card,Image,Button,Progress, Icon } from 'semantic-ui-react';
 import "../style/Education.css";
 
-export default function Education(props) {
+function Education(props) {
     return (
         <div className="education-background">
             <div className="education-container">
-                <h1 className="education-title">Formación académica</h1>
+                <h1 className="education-title">Formación académica<Icon size="small" name="book" color="olive"/></h1>
+                <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
                 <p className="education-text">Durante los últimos 5 años la UNQ fue mi segunda casa, desarrollé capacidad para razonar problemas complejos y resolverlos en equipo en las siguientes carreras: </p>
                 <div className="education-card-group-container">
                 <Card.Group >
@@ -86,3 +88,5 @@ export default function Education(props) {
         </div>
     );
 }
+
+export default withRouter(Education);

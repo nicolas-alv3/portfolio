@@ -5,7 +5,8 @@ import "../style/Education.css";
 export default function Languages(props) {
     return (
         <div className="education-background-languages">
-                <h1 className="education-title">Inglés</h1>
+                <h1 className="education-title">Inglés<Icon size="small" name="pencil alternate" color="orange"/></h1>
+                <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
                 <p className="education-text">Estudié este idioma durante 8 años y decidí formalizar el conocimiento por medio de FCE (First Certificate Exam) </p>
                 <div className="education-card-group-container">
                 <Card.Group >
