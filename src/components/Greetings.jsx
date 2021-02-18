@@ -1,9 +1,27 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import { withRouter } from 'react-router';
 import { Button } from 'semantic-ui-react';
 import "../style/Greetings.css";
 
 function Greetings(props) {
+
+    const previousPage = () => props.history.goBack()
+
+    const nextPage = () => props.history.push("/education")
+
+    const handleEnter = (e) => {
+        if(e.keyCode === 13 || e.keyCode === 39)
+            nextPage();
+        if(e.keyCode === 37)
+            previousPage();
+    }
+
+
+    useEffect(() => {
+        window.addEventListener('keydown', handleEnter);
+        return () => window.removeEventListener('keydown', handleEnter);
+      });
+
     const getGreetings = (hour) => {
         if(hour >= 13){
             if(hour >19)
@@ -25,7 +43,7 @@ function Greetings(props) {
                             inverted
                             circular 
                             className="" 
-                            onClick={ () => props.history.goBack()}
+                            onClick={ () => previousPage()}
                             icon="arrow alternate circle left"
                             labelPosition="left"
                             color="white"
@@ -34,7 +52,7 @@ function Greetings(props) {
                         <Button 
                             circular 
                             className="greetings-button" 
-                            onClick={ () => props.history.push("/education")}
+                            onClick={ () => nextPage()}
                             icon="arrow alternate circle right"
                             labelPosition="right"
                             color="purple"

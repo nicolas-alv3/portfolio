@@ -77,11 +77,20 @@
     margin: auto;
 }
 .end {
-    font-size: 7vw;
+    width: 60%;
+    font-size: 5vw;
 }
 
 .end-text {
     font-size: 3vw;
+}
+
+.extra-end {
+    position: absolute;
+    right : 0;
+    bottom:0;
+    margin: 10px;
+    color :wheat
 }
 
 @media (max-width:900px) { 

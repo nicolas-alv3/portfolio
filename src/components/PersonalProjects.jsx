@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card,Image,Button,Progress, Icon } from 'semantic-ui-react';
 import "../style/Education.css";
 import ProjectModal from './ProjectModal';
@@ -24,6 +24,24 @@ const ViandasYa = {
     }
 
 export default function PersonalProjects(props) {
+
+    const previousPage = () => props.history.goBack()
+
+    const nextPage = () => props.history.push("/end")
+
+    const handleEnter = (e) => {
+        if(e.keyCode === 13 || e.keyCode === 39)
+            nextPage();
+        if(e.keyCode === 37)
+            previousPage();
+    }
+
+
+    useEffect(() => {
+        window.addEventListener('keydown', handleEnter);
+        return () => window.removeEventListener('keydown', handleEnter);
+      });
+
     return (
         <div className="home-background">
                 <h1 className="education-title">Proyectos personales <Icon size="small" name="code" color="orange"/></h1>
@@ -92,7 +110,7 @@ export default function PersonalProjects(props) {
                     inverted
                     circular 
                     className="" 
-                    onClick={ () => props.history.goBack()}
+                    onClick={ () => previousPage()}
                     icon="arrow alternate circle left"
                     labelPosition="left"
                     color="white"
@@ -101,7 +119,7 @@ export default function PersonalProjects(props) {
                 <Button 
                     circular 
                     className="greetings-button" 
-                    onClick={ () => props.history.push("/end")}
+                    onClick={ () => nextPage()}
                     icon="arrow alternate circle right"
                     labelPosition="right"
                     color="purple"

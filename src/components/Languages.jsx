@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card,Image,Button,Progress, Icon } from 'semantic-ui-react';
 import "../style/Education.css";
 
 export default function Languages(props) {
+
+    const previousPage = () => props.history.goBack()
+
+    const nextPage = () => props.history.push("/workProjects")
+
+    const handleEnter = (e) => {
+        if(e.keyCode === 13 || e.keyCode === 39)
+            nextPage();
+        if(e.keyCode === 37)
+            previousPage();
+    }
+
+
+    useEffect(() => {
+        window.addEventListener('keydown', handleEnter);
+        return () => window.removeEventListener('keydown', handleEnter);
+      });
+
     return (
         <div className="home-background">
                 <h1 className="education-title">Inglés<Icon size="small" name="pencil alternate" color="brown"/></h1>
@@ -75,7 +93,7 @@ export default function Languages(props) {
                     inverted
                     circular 
                     className="" 
-                    onClick={ () => props.history.goBack()}
+                    onClick={ () => previousPage()}
                     icon="arrow alternate circle left"
                     labelPosition="left"
                     color="white"
@@ -84,7 +102,7 @@ export default function Languages(props) {
                 <Button 
                     circular 
                     className="greetings-button" 
-                    onClick={ () => props.history.push("/workProjects")}
+                    onClick={ () => nextPage()}
                     icon="arrow alternate circle right"
                     labelPosition="right"
                     color="purple"
