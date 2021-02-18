@@ -92,9 +92,7 @@ function Education(props) {
                     content="Continuar"
                     />
             </div>
-            <div className="education-layer-wrapper">
-                <div className="education-layer" />
-            </div>
+            <div className="education-layer" />
         </div>
     );
 }

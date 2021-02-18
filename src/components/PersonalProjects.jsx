@@ -25,7 +25,7 @@ const ViandasYa = {
 
 export default function PersonalProjects(props) {
     return (
-        <div className="education-background-languages">
+        <div className="home-background">
                 <h1 className="education-title">Proyectos personales <Icon size="small" name="code" color="orange"/></h1>
                 <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
                 <p className="education-text">Con el pasar del tiempo aprendí a identificar problemas de la vida cotidiana y solucionarlos con informática</p>
@@ -108,6 +108,7 @@ export default function PersonalProjects(props) {
                     content="Continuar"
                     />
             </div>
+            <div className="background-layer" />
         </div>
     );
 }

@@ -23,7 +23,7 @@ const LosHermanos = {
 
 export default function WorkProjects(props) {
     return (
-        <div className="education-background-languages">
+        <div className="home-background">
                 <h1 className="education-title">Experiencia laboral <Icon size="small" name="terminal" color="red"/></h1>
                 <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>    
                 <p className="education-text">A mediados de 2020 comencé a programar sistemas de stock, ventas y facturación para clientes personales.</p>
@@ -110,6 +110,7 @@ export default function WorkProjects(props) {
                     content="Continuar"
                     />
             </div>
+            <div className="background-layer" />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, Icon, Input } from 'semantic-ui-react';
+import {  Icon, Input } from 'semantic-ui-react';
 import "../style/Home.css";
 
 export default function Home(props) {
@@ -14,7 +14,7 @@ export default function Home(props) {
                 <img alt="" className="home-image-container" />
                     <h1 className="home-welcome">Bienvenid@!</h1>
                     <h2 className="home-text">Mi nombre es Nico, y el tuyo?</h2>
-                    <div className="home-input-name-container">
+                    <div className="buttons-container">
                         <Input 
                             iconPosition="right"
                             >
@@ -29,6 +29,7 @@ export default function Home(props) {
                         </Input>
                     </div>
             </div>
+            <div className="background-layer" />
         </div>
     );
 }

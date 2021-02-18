@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-import { Button} from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 import "../style/Greetings.css";
 
 function Greetings(props) {
@@ -41,6 +41,7 @@ function Greetings(props) {
                             content="Continuar"
                         />
                     </div>
+                    <div className="background-layer" />
             </div>
         </div>
     );

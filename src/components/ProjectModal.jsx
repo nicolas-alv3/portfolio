@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Segment, Header, Icon, Image, Label, Modal } from 'semantic-ui-react'
+import { Button, Segment, Header, Image, Label, Modal } from 'semantic-ui-react'
 
 const colors = [
     'yellow',
@@ -46,7 +46,7 @@ function ProjectModal(props) {
             <Label as='a' color='red' ribbon>
             Serán solo 2'
             </Label>
-            <iframe allowfullscreen="true" width="330" height="200" src={`https://www.youtube.com/embed/${props.ytId}`} frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe title="Microdemo" allowfullscreen="true" width="330" height="200" src={`https://www.youtube.com/embed/${props.ytId}`} frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </Segment> : 
         <Image size='medium' src={props.srcImg} wrapped />
         }

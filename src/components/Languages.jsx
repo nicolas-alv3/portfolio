@@ -4,7 +4,7 @@ import "../style/Education.css";
 
 export default function Languages(props) {
     return (
-        <div className="education-background-languages">
+        <div className="home-background">
                 <h1 className="education-title">Inglés<Icon size="small" name="pencil alternate" color="brown"/></h1>
                 <hr color="gray" style={{margin:"-20px 3vw 10px 3vw"}}/>
                 <p className="education-text">Me formé en este idioma durante 8 años y decidí formalizar el conocimiento por medio del FCE (First Certificate Exam) </p>
@@ -91,6 +91,7 @@ export default function Languages(props) {
                     content="Continuar"
                     />
             </div>
+            <div className="language-layer" />
         </div>
     );
 }

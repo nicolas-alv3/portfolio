@@ -3,6 +3,7 @@
 }
 
 .greetings-text {
+    margin-left: 2vw;
     font-size: 3vw;
 }
 .greetings-button{
@@ -10,4 +11,26 @@
 }
 .home-input-name-container {
     width: 25vh;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 0;
+    top: 40vh;
+    height: 30vh;
+    opacity: .1;
+}
+
+.right-arrow:hover {
+    opacity: 1;
+    background-color: transparent;
+}
+
+.left-arrow {
+    position: absolute;
+    color: transparent !important;
+    left: 0;
+    top: 40vh;
+    height: 30vh;
+    opacity: .1;
 }
