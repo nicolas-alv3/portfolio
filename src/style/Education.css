@@ -69,6 +69,23 @@
      justify-content: space-around
 }
 
+.end-link:hover {
+    opacity: .6;
+}
+
+.end-link {
+    cursor: pointer;
+}
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+
 @media (max-width:800px) {
     .education-background-languages {
         height: 130vh;

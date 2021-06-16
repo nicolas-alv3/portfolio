@@ -57,6 +57,7 @@ function ProjectModal(props) {
             {props.description}
           </p>
           </div>
+              {props.githublink ? 
               <Button 
                 icon="github"
                 color="black"
@@ -65,6 +66,7 @@ function ProjectModal(props) {
                 content="¿Querés ver el código?"
                 onClick={() => window.open(props.githublink)}
               />
+              :<div/>}
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>

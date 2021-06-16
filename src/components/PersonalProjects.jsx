@@ -27,7 +27,7 @@ export default function PersonalProjects(props) {
 
     const previousPage = () => props.history.goBack()
 
-    const nextPage = () => props.history.push("/end")
+    const nextPage = () => props.history.push("/onWeekends")
 
     const handleEnter = (e) => {
         if(e.keyCode === 13 || e.keyCode === 39)
