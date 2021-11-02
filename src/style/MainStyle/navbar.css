@@ -1,0 +1,15 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 32px 0 16px;
+}
+.navbar-logo {
+    margin-right:auto;
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-container button {
+    margin: 16px;
+}

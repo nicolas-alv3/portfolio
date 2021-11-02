@@ -1,0 +1,74 @@
+.banner-container {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-name {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 70px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.banner-description {
+    position: absolute;
+    width: 700px;
+    top: 350px;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Rubik', sans-serif;
+}
+
+.banner-round {
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    background-color: var(--light-main-color);
+    border-radius: 50%;
+    right: -20%;
+    bottom: -50%;
+}
+
+.banner-rocket {
+    width: 110px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.banner-rocket p {
+    color: var(--dark-main-color);
+    font-size: 20px;
+}
+
+.banner-rocket > div {
+    transform: rotate(180deg);
+    width: max-content;
+    height: max-content;
+}
+
+.banner-rocket img {
+    margin-top:-13px;
+    width: 50px;
+    -webkit-animation: move 2s infinite  alternate;
+    animation: move 2s infinite  alternate;
+}
+
+@-webkit-keyframes move {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes move {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.banner-container button {
+    position: absolute;
+    top: 530px;
+    left: 100px;
+}
