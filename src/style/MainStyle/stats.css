@@ -1,4 +1,22 @@
 .stats-container {
     width: 100%;
     height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px
+}
+
+.stats-container img {
+    height: 80px;
+    filter: grayscale();
+    opacity: .5;
+    transition: all .2s ease-out;
+}
+
+.stats-container img:hover {
+    height: 90px;
+    filter: none;
+    opacity: 1;
+    cursor: pointer;
 }

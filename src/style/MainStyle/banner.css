@@ -40,12 +40,18 @@
     left: 50%;
 }
 
+.banner-container h1 {
+    margin:0 
+}
+
 .banner-rocket p {
+    margin:0;
     color: var(--dark-main-color);
     font-size: 20px;
 }
 
 .banner-rocket > div {
+    margin-bottom: 24px;    
     transform: rotate(180deg);
     width: max-content;
     height: max-content;

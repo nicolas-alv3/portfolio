@@ -1,0 +1,15 @@
+.experience-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:16px 64px;
+    padding: 16px;
+}
+
+.experience-item div {
+    width: 600px;
+}
+
+.experience-item img {
+    width: 200px;
+}

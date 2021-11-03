@@ -35,3 +35,25 @@ body {
   box-shadow: var(--dark-main-color) 0 14px 22px -29px;
 
 }
+
+.title {
+  color: var(--dark-main-color);
+
+}
+
+h1 {
+  margin: 1em
+}
+
+.section-container {
+  margin:64px 100px
+}
+
+h4 { 
+  color: var(--light-main-color);
+  margin:0
+}
+
+ul {
+  list-style-type: none;
+}
