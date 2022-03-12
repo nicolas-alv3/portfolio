@@ -3,7 +3,7 @@ import { getEmailLinkFor, getLinkedinLink, getSpotifyPodcastLink, getTelegramLin
 import '../../style/MainStyle/stats.css';
 
 export default function Stats() {
-    return (<div className="section-container">
+    return (<div className="section-container" id="contact-me">
         <h1 className="title" style={{marginBottom:0}}>Podés contactarme vía...</h1>
         <div className="stats-container">
             <img label="Send me a message!" alt="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" onClick={() => window.open(getLinkedinLink(),"_blank")}/>

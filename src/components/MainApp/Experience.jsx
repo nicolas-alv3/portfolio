@@ -8,7 +8,7 @@ import LampIcon from './icons/LampIcon';
 export default function Experience(props) {
 
 
-    return (<div className="section-container">
+    return (<div id={experienceTypes[props.type].title} className="section-container">
         <h1 className="title">{experienceTypes[props.type].title}</h1>
         {
             experienceTypes[props.type].items.map(i => <div className="experience-item box-shadow">
