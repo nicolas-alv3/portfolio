@@ -13,7 +13,7 @@ export default function Experience(props) {
         {
             experienceTypes[props.type].items.map(i => <div className="experience-item box-shadow">
                 <div className="see-more-modal">
-                        {props.type == "projects" && <ProjectModal
+                        {props.type === "projects" && <ProjectModal
                         meta={i.modalInfo.meta}
                         description={i.modalInfo.description}
                         stack={i.modalInfo.stack}
@@ -33,7 +33,7 @@ export default function Experience(props) {
                         </li>
                     </ul>
                 </div>
-                <img src={i.imgURL} />
+                <img src={i.imgURL} alt="experience"/>
             </div>)
         }
     </div>

@@ -27,7 +27,7 @@ const LosHermanos = {
 const PomeloBebes = {
     name:"Pomelo Bebes",
         meta:"Tienda de ropa online",
-        description:"El cliente llego con la idea de hacer un catalogo online, a lo que ofrecí utilizar los microservicios de whatsapp para completar el ciclo de venta, pudiendo integrar algun metodo de pago en el futuro. Realmente aprendi mucho de Angular y sodifiqué mis conocimientos en Javascript y diseño",
+        description:"El cliente llego con la idea de hacer un catalogo online, a lo que ofrecí utilizar los microservicios de whatsapp para completar el ciclo de venta, pudiendo integrar algun metodo de pago en el futuro. Realmente aprendí mucho de Angular y sodifiqué mis conocimientos en Javascript y diseño",
         stack:["Angular","Bootstrap","Reactive forms"],
         ytId:"-ZIlGy2ew0g",
 }

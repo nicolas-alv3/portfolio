@@ -11,7 +11,7 @@ export default function Banner() {
         <div className="banner-rocket">
             <p>Scroll</p>
             <div>
-                <img src={rocketUrl}/>
+                <img alt="rocket" src={rocketUrl}/>
             </div>
         </div>
     </div>
