@@ -7,17 +7,17 @@
 
 .banner-name {
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 20vh;
+    left: 7vw;
     font-size: 70px;
     font-family: 'Rubik', sans-serif;
 }
 
 .banner-description {
     position: absolute;
-    width: 700px;
-    top: 350px;
-    left: 100px;
+    width: 50vw;
+    top: 35vh;
+    left: 7vw;
     font-size: 40px;
     font-weight: 200;
     font-family: 'Rubik', sans-serif;
@@ -75,6 +75,6 @@
 
 .banner-container button {
     position: absolute;
-    top: 530px;
-    left: 100px;
+    top: 65vh;
+    left: 7vw;
 }

@@ -27,11 +27,9 @@ function ProjectModal(props) {
       onOpen={() => setOpen(true)}
       open={open}
       trigger={<Button 
-        style={{float:"right"}} 
         basic 
-        circular
         icon="eye circle" 
-        color='blue' 
+        color='violet' 
         content="Ver más"
         />}
     >
@@ -50,12 +48,12 @@ function ProjectModal(props) {
         </Segment> : 
         <Image size='medium' src={props.srcImg} wrapped />
         }
-        <Modal.Description className="modal-description">
+        <div style={{marginLeft: "8px"}}>
           <Header>Descripción</Header>
-          <div style={{width:"35vw"}}>
-          <p>
-            {props.description}
-          </p>
+          <div>
+            <p >
+              {props.description}
+            </p>
           </div>
               {props.githublink ? 
               <Button 
@@ -67,7 +65,7 @@ function ProjectModal(props) {
                 onClick={() => window.open(props.githublink)}
               />
               :<div/>}
-        </Modal.Description>
+        </div>
       </Modal.Content>
       <Modal.Actions>
         <Button

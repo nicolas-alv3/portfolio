@@ -6,14 +6,18 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 
 export default function MainApp() {
+    
     // Design inspired in https://dribbble.com/shots/15293127/attachments/7047508?mode=media
     return(
         <>
-            <Navbar />
+            <Navbar/>
             <Banner />
-            <Experience />
+            <Experience type="work" />
+            <Experience type="education" />
+            <Experience type="projects" />
             <Stats />
             <Footer />
+
         </>
     )
 }

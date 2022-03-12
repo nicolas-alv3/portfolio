@@ -1,4 +1,5 @@
 .experience-item {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,4 +13,18 @@
 
 .experience-item img {
     width: 200px;
+}
+
+.experience-item:hover .see-more-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.see-more-modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 32px;
+    left: 45%;
+    transition: visibility 0s, opacity 0.2s linear;
 }

@@ -53,10 +53,6 @@
     margin-bottom: 2vh;
 }
 
-.modal-description{
-    margin-left: 20px;
-}
-
 @media (max-width:1200px) { 
     .education-card-group{
         width: 22.5vw;

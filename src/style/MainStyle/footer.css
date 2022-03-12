@@ -1,5 +1,11 @@
 .footer-container {
-    height: 200px;
+    height: 90px;
     width: 100%;
     background-color: var(--dark-main-color);
+}
+
+.footer-container .section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
