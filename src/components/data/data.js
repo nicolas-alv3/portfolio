@@ -12,6 +12,7 @@ const gliderInfo = {
     meta:"Emprendimiento de software",
     description:"Hace un tiempo decidí ponerle un nombre a la serie de trabajos independientes que realicé, generando una marca que me permita conseguir mas y mejores clientes.",
     stack:[],
+    srcImg: "https://glidersoftware.web.app/static/media/gliderlogo.72278e90.png",
     githublink:"",
 }
 

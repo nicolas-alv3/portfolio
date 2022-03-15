@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Button, Segment, Header, Image, Label, Modal } from 'semantic-ui-react'
 
 const colors = [
@@ -20,6 +21,7 @@ const colors = [
 
 function ProjectModal(props) {
   const [open, setOpen] = React.useState(false)
+  const { t } = useTranslation();
 
   return (
     <Modal
@@ -30,7 +32,7 @@ function ProjectModal(props) {
         basic 
         icon="eye circle" 
         color='violet' 
-        content="Ver más"
+        content={t("Ver más")}
         />}
     >
       <Modal.Header>
@@ -49,21 +51,23 @@ function ProjectModal(props) {
         <Image size='medium' src={props.srcImg} wrapped />
         }
         <div style={{marginLeft: "8px"}}>
-          <Header>Descripción</Header>
+          <Header>{t("Descripcion")}</Header>
           <div>
             <p >
               {props.description}
             </p>
           </div>
               {props.githublink ? 
-              <Button 
-                icon="github"
-                color="black"
-                basic
-                circular
-                content="¿Querés ver el código?"
-                onClick={() => window.open(props.githublink)}
-              />
+              <div style={{marginTop: "24px"}}>
+                <Button 
+                  icon="github"
+                  color="black"
+                  basic
+                  circular
+                  content="¿Querés ver el código?"
+                  onClick={() => window.open(props.githublink)}
+                />
+              </div>
               :<div/>}
         </div>
       </Modal.Content>

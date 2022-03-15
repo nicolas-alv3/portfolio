@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { getEmailLinkFor, getLinkedinLink, getSpotifyPodcastLink, getTelegramLink } from '../../service/socialMediaService';
 import '../../style/MainStyle/stats.css';
 
 export default function Stats() {
+    const { t } = useTranslation();
     return (<div className="section-container" id="contact-me">
-        <h1 className="title" style={{marginBottom:0}}>Podés contactarme vía...</h1>
+        <h1 className="title" style={{marginBottom:0}}>{t("you can contact me by")}</h1>
         <div className="stats-container">
             <img label="Send me a message!" alt="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" onClick={() => window.open(getLinkedinLink(),"_blank")}/>
             <img alt="gmail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" onClick={() => window.open(getEmailLinkFor("nicolas.alv3@gmail.com", "Contacto vía portfolio", "Hey Nico, como estas?"),"_blank")} />
