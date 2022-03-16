@@ -23,6 +23,7 @@ export default function Experience(props) {
                         githublink={i.modalInfo.githublink}
                         srcImg={i.modalInfo.srcImg}
                         ytId={i.modalInfo.ytId}
+                        name={i.modalInfo.name}
                         />}
                     </div>
                 <div>

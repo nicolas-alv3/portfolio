@@ -54,7 +54,7 @@ function ProjectModal(props) {
           <Header>{t("Descripcion")}</Header>
           <div>
             <p >
-              {props.description}
+              {t(props.name + "-description")}
             </p>
           </div>
               {props.githublink ? 
@@ -64,7 +64,7 @@ function ProjectModal(props) {
                   color="black"
                   basic
                   circular
-                  content="¿Querés ver el código?"
+                  content={t("quieres ver el codigo")}
                   onClick={() => window.open(props.githublink)}
                 />
               </div>

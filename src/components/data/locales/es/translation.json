@@ -50,6 +50,11 @@
   "Te recomiendo el capítulo sobre": "Te recomiendo el capítulo sobre [programación]",
   ", nos vemos allá!": ", nos vemos allá!",
   "¡Bienvenid@!": "¡Bienvenid@!",
-  "Hola Nico quiero contactarme con vos": "Hola Nico, quiero contactarme con vos"
+  "Hola Nico quiero contactarme con vos": "Hola Nico, quiero contactarme con vos",
+  "Glider software-description": "Hace un tiempo decidí ponerle un nombre a la serie de trabajos independientes que realicé, generando una marca que me permita conseguir mas y mejores clientes.",
+  "Pomelo Bebes-description": "El cliente llego con la idea de hacer un catalogo online, a lo que ofrecí utilizar los microservicios de whatsapp para completar el ciclo de venta, pudiendo integrar algun metodo de pago en el futuro. Realmente aprendí mucho de Angular y sodifiqué mis conocimientos en Javascript y diseño",
+  "DistribuidoraJD-description": "Dentro de la aplicación se pueden cargar productos, editarlos y eliminarlos, además modificar su stock desde una pestaña específica y vender identificando productos por código y descripción. También se pueden buscar productos y ventas por separado. Una vez finalizada la venta, se puede ver el comprobante de venta en una plantilla de JSReport. Actualmente me encuentro desarrollando la parte de Balances y Compras con el objetivo futuro de realizar listas de compra automáticas y realizar balances contables mensuales.",
+  "Los Hermanos-description": "Dentro de la aplicación se pueden cargar productos, editarlos y eliminarlos, además modificar su stock desde una pestaña específica y vender identificando productos por código y descripción. También existe un buscador de productos por similtud de palabras. Se ha agregado a pedido del cliente un apartado de modificación de precios por producto y por porcentaje. Actualmente me encuentro realizando modificaciones pequeñas para mejorar la experiencia del usuario dado que el programa se utiliza diariamente.",
+  "quieres ver el codigo": "¿Quieres ver el código?"
   
 }

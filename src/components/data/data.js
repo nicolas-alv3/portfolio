@@ -49,7 +49,7 @@ const educationItems = [
 const projectItems = [
     { title: "Glider software", period: "2020 - Presente", items: ["Desarrollo de Software a medida", "Desarrollo de sistemas de ventas y facturación"], imgURL:"https://glidersoftware.web.app/static/media/gliderlogo.72278e90.png", modalInfo: gliderInfo},
    // { title: "La nave geek", period: "2016 - Presente", items: ["Algoritmos de optimización","Computación formal"], imgURL:"https://deya.unq.edu.ar/wp-content/uploads/2018/08/UNQ-e1575983202836.jpg", modalInfo: gliderInfo },
-    { title: "Pomelo bebés", period: "2020", items: ["Backend en NodeJS","Frontend en Angular", "Deployment en firebase"], imgURL:"https://pomelobebes.web.app/assets/logo.jpeg", modalInfo: PomeloBebes },
+    { title: "Pomelo bebes", period: "2020", items: ["Backend en NodeJS","Frontend en Angular", "Deployment en firebase"], imgURL:"https://pomelobebes.web.app/assets/logo.jpeg", modalInfo: PomeloBebes },
     { title: "Distribuidora JD", period: "2016 - Presente", items: ["Backend en Java + Springboot","Frontend React + MaterialUI", "Reportes con JSReport"], imgURL:"https://raw.githubusercontent.com/nicolas-alv3/DistribuidoraJDFront/master/src/icons/logo.png", modalInfo: DistribuidoraJD },
     { title: "Ferretería y corralon Los Hermanos", period: "2021", items: ["Backend en Kotlin + Springboot","Frontend React + SemanticUI", "Desktop app con Electron"], imgURL:"https://raw.githubusercontent.com/nicolas-alv3/Corralon-y-ferreteria-los-dos-hermanos/master/frontend/src/icons/logo-horizontal.png", modalInfo: LosHermanos },
 ]
