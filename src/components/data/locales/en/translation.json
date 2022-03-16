@@ -55,5 +55,7 @@
     "Pomelo Bebes-description": "The client's idea was to build an online catalogue, so I offered her to use Whatsapp microservices to complete the customer journey, and in the future integrate with a payment processor. In this project I learned plenty of things about Angular and improved my design skills",
     "DistribuidoraJD-description": "The purpose of the app is to manage products and sales, It has a reporting section where the client can see his previous bills. The client can also search products by id and name. I am currently working in the Purchases section. The product is used everyday in the store.",
     "Los Hermanos-description": "The main pourpose of the app is to manage products and update their prices, the client came with the idea of changing prices easily, so I suggest him to update them by category and individually, with porcentage or a fix amount. The product is used everyday in the store.",
-    "quieres ver el codigo": "Show me the code!"
+    "quieres ver el codigo": "Show me the code!",
+    "About me": "About me",
+    "about-me-description": "IT technician currently working as fullstack developer. I am keen on cryptocurrencies and trekking. I enjoy doing personal projects to lean new technologies while solving a problem. I am passionate about education and learning, I think it is the best way to improve myself everyday"
 }

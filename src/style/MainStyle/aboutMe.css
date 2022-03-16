@@ -1,0 +1,19 @@
+.about-me img{
+    background-image: url(../../resources/foto-cv.jpeg);
+    width: 10vw;
+    height: 10vw;
+    background-size: cover;
+    border-radius: 50%;
+    border :2px solid gray;
+    margin: 5vh 10% 0 10px;
+}
+
+.about-me h3 {
+    width: 50%;
+}
+
+.about-me div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

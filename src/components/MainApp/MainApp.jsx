@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Experience from "./Experience";
 import Stats from "./Stats";
 import Footer from "./Footer";
+import AboutMe from "./AboutMe";
 
 export default function MainApp() {
     
@@ -12,6 +13,7 @@ export default function MainApp() {
         <>
             <Navbar/>
             <Banner />
+            <AboutMe />
             <Experience type="work" />
             <Experience type="education" />
             <Experience type="projects" />
