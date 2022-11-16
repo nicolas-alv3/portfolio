@@ -57,6 +57,7 @@
   "Los Hermanos-description": "Dentro de la aplicación se pueden cargar productos, editarlos y eliminarlos, además modificar su stock desde una pestaña específica y vender identificando productos por código y descripción. También existe un buscador de productos por similtud de palabras. Se ha agregado a pedido del cliente un apartado de modificación de precios por producto y por porcentaje. Actualmente me encuentro realizando modificaciones pequeñas para mejorar la experiencia del usuario dado que el programa se utiliza diariamente.",
   "quieres ver el codigo": "¿Quieres ver el código?",
   "About me": "Sobre mí",
-  "about-me-description": "Técnico universitario en programación actualmente trabajando como desarrollador fullstack. Fanático de las cripto y del aire libre. Me gusta hacer proyectos personales para entender mejor las herramientas al momento de solucionar un problema. Soy apasionado del aprendizaje y la enseñanza, creo que es la mejor forma de superarse a sí mismo todos los días."
+  "about-me-description": "Técnico universitario en programación actualmente trabajando como desarrollador fullstack. Fanático de las cripto y del aire libre. Me gusta hacer proyectos personales para entender mejor las herramientas al momento de solucionar un problema. Soy apasionado del aprendizaje y la enseñanza, creo que es la mejor forma de superarse a sí mismo todos los días.",
+  "todavia no escuchaste": "¿Todavía no escuchaste mi podcast?"
   
 }

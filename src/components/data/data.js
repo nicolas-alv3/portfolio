@@ -35,7 +35,8 @@ const PomeloBebes = {
 
 
 const workItems = [
-    { title: "Desarrollador fullstack Java+React", period: "Julio 2021 - Presente", items: ["Maquetado y desarrollo frontend utilizando microservicios y diseños de Figma","Desarrollo de servicios web en Java con Springboot","Contacto con clientes en Inglés","Cliente Hyros tracking AI"], imgURL:"https://www.empleosit.com.ar/files/pictures/ensolvers.png" },
+    { title: "Desarrollador fullstack Java+Angular", period: "Junio 2022 - Presente", items: ["Maquetado y desarrollo frontend utilizando microservicios y diseños de Figma","Desarrollo de servicios web en Java con Springboot","Charla constante con el cliente","Cliente Banco Itaú"], imgURL:"https://pbs.twimg.com/media/Ff2_gDHWYAUFRCQ.jpg" },
+    { title: "Desarrollador fullstack Java+React", period: "Julio 2021 - Junio 2022", items: ["Maquetado y desarrollo frontend utilizando microservicios y diseños de Figma","Desarrollo de servicios web en Java con Springboot","Contacto con clientes en Inglés","Cliente Hyros tracking AI"], imgURL:"https://www.empleosit.com.ar/files/pictures/ensolvers.png" },
     { title: "Docente Instructor", period: "Julio 2021 - Diciembre 2021", items: ["Preparación de clases prácticas","Corrección de parciales","Materia 'Introducción a la programación'"], imgURL:"https://deya.unq.edu.ar/wp-content/uploads/2018/08/UNQ-e1575983202836.jpg" },
     { title: "Desarrollador fullstack Java+Angular", period: "Marzo 2021 - Julio 2021", items: ["Maquetado y desarrollo frontend consumiendo servicios REST","Desarrollo de servicios web en Java con Spring","Cliente BBVA área seguros"], imgURL:"https://ii.ct-stc.com/5/logos/empresas/2019/07/05/f977bb3068314eeea5bf170321314thumbnail.png" },
 ]
